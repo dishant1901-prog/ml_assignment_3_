@@ -16,7 +16,7 @@ Q1/ Q2/ Q3/ Q4/
    logs/       training logs of the final runs
    figures/    figures used in the report (made by plots.py)
 jobs/        the job list used to run everything one after another
-report/      LaTeX source of the report (CVPR template)
+report/      the compiled report (PDF) and its LaTeX source (CVPR template)
 requirements.txt
 ```
 Checkpoints (`*/checkpoints/`) and the dataset (`data/`) are not in the repository because of their size;
@@ -89,6 +89,7 @@ The same steps are listed in `jobs/night.txt` and can be run unattended with
 machine's CPU or memory use gets too high (limits in `common/run_queue.py`).
 
 ## Report
+The compiled report is `report/ML_Assignment3_M24MA2003_Dishant_Kaushik.pdf`.
 `report/` holds the LaTeX source (CVPR template). Run `python report/collect_figures.py` to copy the figures
 into `report/figures/`, then compile `report/main.tex` with pdfLaTeX + BibTeX (for example on Overleaf by
 uploading the `report/` folder).

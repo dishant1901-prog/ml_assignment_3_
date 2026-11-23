@@ -20,6 +20,7 @@ report/*.blg
 report/*.log
 report/*.out
 report/*.pdf
+!report/ML_Assignment3_M24MA2003_Dishant_Kaushik.pdf
 
 # personal working files
 RULES.md
