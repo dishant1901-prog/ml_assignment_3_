@@ -1,0 +1,51 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage[pagenumbers]{cvpr}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{caption}
+\captionsetup{font=small}
+\setlength{\abovecaptionskip}{4pt}
+\setlength{\textfloatsep}{8pt}
+\setlength{\tabcolsep}{4pt}
+
+\definecolor{cvprblue}{rgb}{0.21,0.49,0.74}
+\usepackage[breaklinks,colorlinks,allcolors=cvprblue]{hyperref}
+
+\graphicspath{{figures/}}
+\newcommand{\repourl}{\url{https://github.com/REPLACE/REPLACE}}
+\newcommand{\commit}{\texttt{REPLACE-WITH-HASH}}
+
+\def\confName{CVPR}
+\def\confYear{2026}
+
+\title{MLPs, CNNs, Autoencoders, SVMs and Clustering on CIFAR-10:\\
+what the comparisons actually show}
+
+\author{Dishant Kaushik\\
+Roll number: M24MA2003\\
+{\small Code: \repourl}\\
+{\small Final commit: \commit}
+}
+
+\begin{document}
+\maketitle
+
+\input{sec/0_setup}
+\input{sec/1_q1}
+\input{sec/2_q2}
+\input{sec/3_q3}
+\input{sec/4_q4}
+\input{sec/5_repro}
+
+{
+\small
+\bibliographystyle{ieeenat_fullname}
+\bibliography{refs}
+}
+
+\end{document}

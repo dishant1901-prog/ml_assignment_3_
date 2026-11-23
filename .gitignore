@@ -1,0 +1,27 @@
+# dataset (rebuilt with common/prepare_data.py, see README)
+data/
+
+# model checkpoints and large intermediate files (recreated by the commands in README)
+*/checkpoints/
+Q4/results/features.npz
+Q4/results/svm_selected.pkl
+
+# python / OS
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# LaTeX build files and the downloaded author kit
+report/_kit/
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.log
+report/*.out
+report/*.pdf
+
+# personal working files
+RULES.md
+STATUS.md
+ml_assignment_3_upgraded.pdf

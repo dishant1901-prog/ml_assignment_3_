@@ -1,0 +1,22 @@
+noise 0.2: 9000 relabelled, check all wrong: True
+ep   1  train 1.825/0.384  val 1.645/0.424  5s
+ep   2  train 1.742/0.425  val 1.613/0.440  9s
+ep   3  train 1.616/0.465  val 1.573/0.444  13s
+ep   4  train 1.455/0.527  val 1.527/0.484  18s
+ep   5  train 1.339/0.569  val 1.513/0.490  22s
+ep   6  train 1.265/0.590  val 1.570/0.466  26s
+ep   7  train 1.161/0.626  val 1.640/0.453  31s
+ep   8  train 1.043/0.666  val 1.640/0.471  35s
+ep   9  train 0.945/0.696  val 1.713/0.452  40s
+ep  10  train 0.849/0.729  val 1.747/0.457  44s
+ep  11  train 0.763/0.756  val 1.837/0.443  48s
+ep  12  train 0.678/0.779  val 1.911/0.444  53s
+ep  13  train 0.579/0.816  val 1.976/0.434  57s
+ep  14  train 0.480/0.849  val 2.016/0.450  62s
+ep  15  train 0.391/0.877  val 2.036/0.460  66s
+ep  16  train 0.341/0.896  val 2.074/0.465  70s
+ep  17  train 0.311/0.902  val 2.207/0.451  75s
+ep  18  train 0.251/0.923  val 2.229/0.458  79s
+ep  19  train 0.233/0.929  val 2.359/0.447  83s
+ep  20  train 0.196/0.941  val 2.432/0.439  88s
+ep  21  train 0.144/0.960  val 2.490/0.450  92s

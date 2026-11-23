@@ -1,0 +1,9 @@
+{
+  "kernel": "poly3",
+  "C": 0.001,
+  "train_acc": 0.3589,
+  "val_acc": 0.3404,
+  "sv_fraction": 1.0,
+  "n_sv": 10000,
+  "fit_seconds": 142.45093703269958
+}

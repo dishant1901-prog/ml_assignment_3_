@@ -1,0 +1,13 @@
+\section{Reproducibility and conclusion}
+\label{sec:repro}
+The repository (\repourl, commit \commit) contains all code, the saved split, per-question configurations in the
+scripts, the final logs and result files from which every number in this report is read, the figure scripts,
+\texttt{requirements.txt} and the exact commands in \texttt{README.md}. Hardware: one RTX 4050 laptop GPU;
+SVMs and clustering on the CPU. Seeds are fixed everywhere (242003); GPU kernels are not forced to be
+deterministic, so retraining can move results by a few tenths of a point.
+
+Across the four questions one theme repeats: the measurement that looks most natural is often not the one
+that answers the question. Final accuracy alone does not tell underfitting from missing priors (Q1a); the final
+model hides that structure was learned before memorisation (Q1b); pixel error does not measure usable
+information (Q3); and a good classifier on a representation does not imply that the classes form clusters in it
+(Q4). The controlled comparisons above are what separate these explanations.

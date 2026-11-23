@@ -1,0 +1,4 @@
+(a) {'by_bottleneck': {16: {'params': 398995, 'val_mse': 0.26333294677734376, 'val_mse_pixel': 0.016496444193522135}, 128: {'params': 857859, 'val_mse': 0.07996205851236979, 'val_mse_pixel': 0.005015179697672526}, 1024: {'params': 4528771, 'val_mse': 0.030828350321451824, 'val_mse_pixel': 0.001936520004272461}}, 'selected': 1024, 'test_mse': 0.03087581965128581, 'test_mse_pixel': 0.0019396514733632407, 'test_psnr': 27.12276299344613}
+(b) sigma 0.05: clean 0.8971  noisy 0.6550  cleanAE(noisy) 0.6163  DAE(noisy) 0.5482  cleanAE(clean) 0.6455  DAE(clean) 0.5531
+(b) sigma 0.1: clean 0.8971  noisy 0.2796  cleanAE(noisy) 0.5525  DAE(noisy) 0.5242  cleanAE(clean) 0.6455  DAE(clean) 0.5531
+(b) sigma 0.2: clean 0.8971  noisy 0.1146  cleanAE(noisy) 0.4062  DAE(noisy) 0.4215  cleanAE(clean) 0.6455  DAE(clean) 0.5531

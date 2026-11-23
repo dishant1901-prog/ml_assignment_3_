@@ -1,0 +1,50 @@
+== cnn  lr=0.01  params=1148874
+ep   1  train 1.507/0.440  val 1.513/0.434  13s
+ep   2  train 1.041/0.628  val 1.079/0.610  24s
+ep   3  train 0.984/0.660  val 1.027/0.638  35s
+ep   4  train 1.054/0.633  val 1.118/0.615  64s
+ep   5  train 0.728/0.749  val 0.814/0.722  93s
+ep   6  train 0.620/0.783  val 0.742/0.743  122s
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\disha\OneDrive\Desktop\ml assignment 3\Q1\q1a_train.py", line 69, in <module>
+    run(m, data, args.lr)
+    ~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\disha\OneDrive\Desktop\ml assignment 3\Q1\q1a_train.py", line 52, in run
+    hist = train(model, data, epochs=CONFIG["epochs"], lr=lr, weight_decay=CONFIG["weight_decay"],
+                 batch_size=CONFIG["batch_size"], use_aug=spec["aug"], seed=SEED)
+  File "C:\Users\disha\OneDrive\Desktop\ml assignment 3\common\train.py", line 64, in train
+    loss = F.cross_entropy(model(xb), yb)
+                           ~~~~~^^^^
+  File "C:\Users\disha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\disha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\disha\OneDrive\Desktop\ml assignment 3\common\models.py", line 45, in forward
+    return self.fc(self.features(x))
+                   ~~~~~~~~~~~~~^^^
+  File "C:\Users\disha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\disha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\disha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\container.py", line 259, in forward
+    input = module(input)
+  File "C:\Users\disha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\disha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\disha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\conv.py", line 565, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\disha\AppData\Roaming\Python\Python313\site-packages\torch\nn\modules\conv.py", line 560, in _conv_forward
+    return F.conv2d(
+           ~~~~~~~~^
+        input, weight, bias, self.stride, self.padding, self.dilation, self.groups
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+RuntimeError: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED

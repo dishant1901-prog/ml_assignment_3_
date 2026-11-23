@@ -1,0 +1,364 @@
+2026-11-23 00:13:48  [gpu] started (cpu 6%, ram 58%): python -m Q1.q1a_train --model cnn --lr 1.0
+2026-11-23 00:14:09  cpu   6.7%  ram  58.0%  gpu-lane: Q1.q1a_train --model cnn --lr 1.0  cpu-lane: -
+2026-11-23 00:14:42  cpu   6.3%  ram  69.3%  gpu-lane: Q1.q1a_train --model cnn --lr 1.0  cpu-lane: -
+2026-11-23 00:15:15  cpu   6.3%  ram  69.3%  gpu-lane: Q1.q1a_train --model cnn --lr 1.0  cpu-lane: -
+2026-11-23 00:15:48  cpu   5.9%  ram  69.3%  gpu-lane: Q1.q1a_train --model cnn --lr 1.0  cpu-lane: -
+2026-11-23 00:16:21  cpu   5.9%  ram  69.2%  gpu-lane: Q1.q1a_train --model cnn --lr 1.0  cpu-lane: -
+2026-11-23 00:16:54  cpu  12.0%  ram  69.4%  gpu-lane: Q1.q1a_train --model cnn --lr 1.0  cpu-lane: -
+2026-11-23 00:17:27  cpu   4.9%  ram  69.3%  gpu-lane: Q1.q1a_train --model cnn --lr 1.0  cpu-lane: -
+2026-11-23 00:18:13  waiting to start (cpu 8%, ram 70%)
+2026-11-23 00:18:34  waiting to start (cpu 8%, ram 73%)
+2026-11-23 00:18:55  waiting to start (cpu 9%, ram 73%)
+2026-11-23 00:19:16  waiting to start (cpu 12%, ram 73%)
+2026-11-23 00:19:37  waiting to start (cpu 13%, ram 68%)
+2026-11-23 00:19:58  waiting to start (cpu 15%, ram 68%)
+2026-11-23 00:20:19  waiting to start (cpu 14%, ram 68%)
+2026-11-23 00:20:40  waiting to start (cpu 12%, ram 68%)
+2026-11-23 00:21:01  waiting to start (cpu 12%, ram 68%)
+2026-11-23 00:21:22  [gpu] started (cpu 10%, ram 58%): python -m Q1.q1a_train --model cnn --lr 1.0
+2026-11-23 00:21:32  cpu  15.5%  ram  57.5%  running: python -m Q1.q1a_train --model cnn --lr 1.0
+2026-11-23 00:21:32  [gpu] finished rc=0: python -m Q1.q1a_train --model cnn --lr 1.0
+2026-11-23 00:21:33  [gpu] started (cpu 13%, ram 58%): python -m Q1.q1a_select_test
+2026-11-23 00:21:43  cpu  17.5%  ram  57.6%  running: python -m Q1.q1a_select_test
+2026-11-23 00:21:43  [gpu] finished rc=0: python -m Q1.q1a_select_test
+2026-11-23 00:21:44  [gpu] started (cpu 13%, ram 58%): python -m Q3.q3_eval --parts b
+2026-11-23 00:21:54  cpu  14.9%  ram  64.1%  running: python -m Q3.q3_eval --parts b
+2026-11-23 00:22:04  [gpu] finished rc=0: python -m Q3.q3_eval --parts b
+2026-11-23 00:22:05  [gpu] started (cpu 9%, ram 56%): python -m Q2.q2_train --condition perm --model mlp --lr 1.0 && python -m Q2.q2_train --condition patch4 --model mlp --lr 1.0 && python -m Q2.q2_train --condition patch8 --model mlp --lr 1.0 && python -m Q2.q2_train --condition patch16 --model mlp --lr 1.0
+2026-11-23 00:22:15  cpu  14.8%  ram  67.0%  running: python -m Q2.q2_train --condition perm --model mlp --lr 1.0 && python 
+2026-11-23 00:22:45  cpu  13.5%  ram  62.8%  running: python -m Q2.q2_train --condition perm --model mlp --lr 1.0 && python 
+2026-11-23 00:23:15  cpu  14.6%  ram  64.5%  running: python -m Q2.q2_train --condition perm --model mlp --lr 1.0 && python 
+2026-11-23 00:23:35  [gpu] finished rc=0: python -m Q2.q2_train --condition perm --model mlp --lr 1.0 && python -m Q2.q2_train --condition patch4 --model mlp --lr 1.0 && python -m Q2.q2_train --condition patch8 --model mlp --lr 1.0 && python -m Q2.q2_train --condition patch16 --model mlp --lr 1.0
+2026-11-23 00:23:36  [cpu] started (cpu 10%, ram 56%): python -m Q4.q4_svm sweep
+2026-11-23 00:23:46  cpu  18.3%  ram  59.7%  running: python -m Q4.q4_svm sweep
+2026-11-23 00:24:16  cpu  16.4%  ram  60.1%  running: python -m Q4.q4_svm sweep
+2026-11-23 00:24:42  waiting to start (cpu 19%, ram 61%, other experiment processes: 2)
+2026-11-23 00:25:03  waiting to start (cpu 19%, ram 60%, other experiment processes: 2)
+2026-11-23 00:25:24  waiting to start (cpu 23%, ram 64%, other experiment processes: 6)
+2026-11-23 00:25:45  waiting to start (cpu 23%, ram 60%, other experiment processes: 2)
+2026-11-23 00:26:06  waiting to start (cpu 15%, ram 60%, other experiment processes: 2)
+2026-11-23 00:26:27  waiting to start (cpu 17%, ram 60%, other experiment processes: 2)
+2026-11-23 00:26:48  waiting to start (cpu 16%, ram 60%, other experiment processes: 2)
+2026-11-23 00:27:09  waiting to start (cpu 19%, ram 63%, other experiment processes: 2)
+2026-11-23 00:27:30  waiting to start (cpu 29%, ram 71%, other experiment processes: 6)
+2026-11-23 00:27:51  waiting to start (cpu 31%, ram 71%, other experiment processes: 7)
+2026-11-23 00:28:12  waiting to start (cpu 23%, ram 66%, other experiment processes: 5)
+2026-11-23 00:28:33  waiting to start (cpu 20%, ram 65%, other experiment processes: 2)
+2026-11-23 00:28:55  waiting to start (cpu 21%, ram 66%, other experiment processes: 2)
+2026-11-23 00:29:16  waiting to start (cpu 30%, ram 69%, other experiment processes: 6)
+2026-11-23 00:29:37  waiting to start (cpu 20%, ram 66%, other experiment processes: 2)
+2026-11-23 00:29:58  waiting to start (cpu 20%, ram 66%, other experiment processes: 2)
+2026-11-23 00:30:19  waiting to start (cpu 16%, ram 64%, other experiment processes: 2)
+2026-11-23 00:30:40  waiting to start (cpu 15%, ram 64%, other experiment processes: 2)
+2026-11-23 00:31:01  waiting to start (cpu 17%, ram 64%, other experiment processes: 2)
+2026-11-23 00:31:22  waiting to start (cpu 23%, ram 64%, other experiment processes: 2)
+2026-11-23 00:31:43  waiting to start (cpu 18%, ram 64%, other experiment processes: 2)
+2026-11-23 00:32:04  waiting to start (cpu 17%, ram 64%, other experiment processes: 2)
+2026-11-23 00:32:25  waiting to start (cpu 14%, ram 64%, other experiment processes: 2)
+2026-11-23 00:32:46  waiting to start (cpu 16%, ram 64%, other experiment processes: 2)
+2026-11-23 00:33:07  waiting to start (cpu 19%, ram 64%, other experiment processes: 2)
+2026-11-23 00:33:28  waiting to start (cpu 15%, ram 64%, other experiment processes: 2)
+2026-11-23 00:33:49  waiting to start (cpu 14%, ram 63%, other experiment processes: 2)
+2026-11-23 00:34:10  waiting to start (cpu 18%, ram 64%, other experiment processes: 2)
+2026-11-23 00:34:31  waiting to start (cpu 21%, ram 65%, other experiment processes: 2)
+2026-11-23 00:34:52  waiting to start (cpu 16%, ram 63%, other experiment processes: 2)
+2026-11-23 00:35:13  waiting to start (cpu 16%, ram 63%, other experiment processes: 2)
+2026-11-23 00:35:34  waiting to start (cpu 16%, ram 63%, other experiment processes: 2)
+2026-11-23 00:35:55  waiting to start (cpu 14%, ram 63%, other experiment processes: 2)
+2026-11-23 00:36:16  waiting to start (cpu 18%, ram 63%, other experiment processes: 2)
+2026-11-23 00:36:37  waiting to start (cpu 32%, ram 63%, other experiment processes: 2)
+2026-11-23 00:36:58  waiting to start (cpu 16%, ram 62%, other experiment processes: 2)
+2026-11-23 00:37:19  waiting to start (cpu 19%, ram 62%, other experiment processes: 2)
+2026-11-23 00:37:40  waiting to start (cpu 17%, ram 62%, other experiment processes: 2)
+2026-11-23 00:38:01  waiting to start (cpu 18%, ram 63%, other experiment processes: 2)
+2026-11-23 00:38:22  waiting to start (cpu 16%, ram 62%, other experiment processes: 2)
+2026-11-23 00:38:43  waiting to start (cpu 15%, ram 63%, other experiment processes: 2)
+2026-11-23 00:39:04  waiting to start (cpu 18%, ram 63%, other experiment processes: 2)
+2026-11-23 00:39:25  waiting to start (cpu 15%, ram 62%, other experiment processes: 2)
+2026-11-23 00:39:46  waiting to start (cpu 17%, ram 62%, other experiment processes: 2)
+2026-11-23 00:40:07  waiting to start (cpu 16%, ram 62%, other experiment processes: 2)
+2026-11-23 00:40:28  waiting to start (cpu 16%, ram 62%, other experiment processes: 2)
+2026-11-23 00:40:49  waiting to start (cpu 17%, ram 62%, other experiment processes: 2)
+2026-11-23 00:41:10  waiting to start (cpu 17%, ram 62%, other experiment processes: 2)
+2026-11-23 00:41:31  waiting to start (cpu 19%, ram 63%, other experiment processes: 2)
+2026-11-23 00:41:52  waiting to start (cpu 17%, ram 63%, other experiment processes: 2)
+2026-11-23 00:42:13  waiting to start (cpu 18%, ram 63%, other experiment processes: 2)
+2026-11-23 00:42:34  waiting to start (cpu 17%, ram 63%, other experiment processes: 2)
+2026-11-23 00:42:55  waiting to start (cpu 19%, ram 63%, other experiment processes: 2)
+2026-11-23 00:43:16  waiting to start (cpu 23%, ram 62%, other experiment processes: 2)
+2026-11-23 00:43:37  waiting to start (cpu 18%, ram 62%, other experiment processes: 2)
+2026-11-23 00:43:58  waiting to start (cpu 18%, ram 62%, other experiment processes: 2)
+2026-11-23 00:44:19  waiting to start (cpu 18%, ram 62%, other experiment processes: 2)
+2026-11-23 00:44:40  waiting to start (cpu 16%, ram 63%, other experiment processes: 2)
+2026-11-23 00:45:01  waiting to start (cpu 20%, ram 63%, other experiment processes: 2)
+2026-11-23 00:45:23  waiting to start (cpu 14%, ram 63%, other experiment processes: 2)
+2026-11-23 00:45:44  waiting to start (cpu 17%, ram 63%, other experiment processes: 2)
+2026-11-23 00:46:05  waiting to start (cpu 22%, ram 63%, other experiment processes: 2)
+2026-11-23 00:46:26  waiting to start (cpu 11%, ram 62%, other experiment processes: 2)
+2026-11-23 00:46:47  waiting to start (cpu 11%, ram 62%, other experiment processes: 2)
+2026-11-23 00:47:08  waiting to start (cpu 10%, ram 62%, other experiment processes: 2)
+2026-11-23 00:47:29  waiting to start (cpu 11%, ram 62%, other experiment processes: 2)
+2026-11-23 00:47:50  [cpu] started (cpu 5%, ram 58%): python -m Q4.q4_svm sweep
+2026-11-23 00:48:00  cpu  16.4%  ram  62.8%  running: python -m Q4.q4_svm sweep
+2026-11-23 00:48:30  cpu  17.8%  ram  62.5%  running: python -m Q4.q4_svm sweep
+2026-11-23 00:49:00  cpu  17.6%  ram  62.9%  running: python -m Q4.q4_svm sweep
+2026-11-23 00:49:30  cpu  16.6%  ram  62.9%  running: python -m Q4.q4_svm sweep
+2026-11-23 00:50:00  cpu  16.6%  ram  62.8%  running: python -m Q4.q4_svm sweep
+2026-11-23 00:50:30  cpu  17.1%  ram  62.7%  running: python -m Q4.q4_svm sweep
+2026-11-23 00:51:00  cpu  16.9%  ram  62.1%  running: python -m Q4.q4_svm sweep
+2026-11-23 00:51:30  cpu  16.5%  ram  62.6%  running: python -m Q4.q4_svm sweep
+2026-11-23 00:52:00  cpu  11.0%  ram  61.8%  running: python -m Q4.q4_svm sweep
+2026-11-23 00:52:30  cpu  11.1%  ram  61.8%  running: python -m Q4.q4_svm sweep
+2026-11-23 00:52:40  [cpu] finished rc=0: python -m Q4.q4_svm sweep
+2026-11-23 00:52:41  [gpu] started (cpu 10%, ram 58%): python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:52:51  cpu  12.7%  ram  66.6%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:53:21  cpu   5.9%  ram  62.8%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:53:51  cpu   5.7%  ram  62.6%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:54:21  cpu   5.7%  ram  62.9%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:54:51  cpu   5.1%  ram  63.1%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:55:21  cpu   6.3%  ram  63.0%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:55:51  cpu   6.4%  ram  63.3%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:56:21  cpu   5.8%  ram  63.0%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:56:51  cpu   5.6%  ram  63.0%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:57:21  cpu   5.7%  ram  62.9%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:57:51  cpu   5.9%  ram  63.0%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:58:21  cpu   5.7%  ram  63.0%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:58:51  cpu   6.0%  ram  63.0%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:59:21  cpu   6.1%  ram  62.9%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 00:59:51  cpu   5.6%  ram  62.9%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:00:21  cpu   5.9%  ram  63.2%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:00:51  cpu   5.8%  ram  63.2%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:01:21  cpu   6.4%  ram  63.2%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:01:51  cpu   6.1%  ram  63.0%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:02:21  cpu   5.6%  ram  63.1%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:02:51  cpu   5.7%  ram  62.5%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:03:21  cpu   7.1%  ram  62.6%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:03:51  cpu   5.6%  ram  62.5%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:04:21  cpu   6.0%  ram  62.5%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:04:51  cpu   5.4%  ram  62.4%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:05:21  cpu   7.8%  ram  62.7%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:05:51  cpu   7.9%  ram  62.0%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:06:21  cpu   6.1%  ram  62.1%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:06:51  cpu   5.8%  ram  63.1%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:07:21  cpu   5.6%  ram  63.1%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:07:51  cpu   6.0%  ram  62.8%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:08:21  cpu   5.8%  ram  62.9%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:08:51  cpu   6.3%  ram  62.7%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:09:21  cpu   6.1%  ram  62.9%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:09:51  cpu   5.9%  ram  62.8%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:10:21  cpu   5.3%  ram  62.9%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:10:51  cpu   6.1%  ram  62.8%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:11:21  cpu   6.3%  ram  62.9%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:11:51  cpu   5.7%  ram  62.9%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:12:21  cpu   5.9%  ram  63.0%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:12:51  cpu   5.6%  ram  62.7%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:13:21  cpu   6.7%  ram  62.7%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:13:51  cpu   5.3%  ram  62.6%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:14:21  cpu   5.9%  ram  62.7%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:14:51  cpu   6.0%  ram  62.6%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:15:21  cpu   6.2%  ram  62.8%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:15:51  cpu   5.6%  ram  62.7%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:16:21  cpu   5.4%  ram  62.7%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:16:51  cpu   5.9%  ram  62.6%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:17:21  cpu   6.5%  ram  62.7%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:17:51  cpu   5.9%  ram  62.6%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:18:21  cpu   6.4%  ram  63.4%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:18:51  cpu   6.0%  ram  63.4%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:19:21  cpu   6.3%  ram  63.3%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:19:51  cpu   6.1%  ram  63.3%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:20:21  cpu   5.4%  ram  63.1%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:20:51  cpu   6.6%  ram  62.6%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:21:21  cpu   8.7%  ram  57.5%  running: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:21:21  [gpu] finished rc=0: python -m Q2.q2_train --condition perm --model cnn
+2026-11-23 01:21:22  [gpu] started (cpu 8%, ram 58%): python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:21:32  cpu  10.1%  ram  66.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:22:02  cpu   5.6%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:22:32  cpu   6.1%  ram  62.8%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:23:02  cpu   5.7%  ram  62.7%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:23:32  cpu   6.0%  ram  62.8%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:24:02  cpu   5.9%  ram  63.5%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:24:32  cpu   5.8%  ram  63.4%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:25:02  cpu   6.2%  ram  63.5%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:25:32  cpu   5.5%  ram  63.5%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:26:02  cpu   5.6%  ram  63.4%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:26:32  cpu   5.8%  ram  63.5%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:27:02  cpu   5.9%  ram  63.5%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:27:32  cpu   5.7%  ram  63.5%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:28:02  cpu   6.0%  ram  63.4%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:28:32  cpu   5.6%  ram  63.5%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:29:02  cpu   6.0%  ram  63.5%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:29:32  cpu   6.8%  ram  64.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:30:02  cpu   6.0%  ram  63.8%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:30:32  cpu   5.7%  ram  63.7%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:31:02  cpu   6.7%  ram  63.3%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:31:32  cpu   6.1%  ram  63.2%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:32:02  cpu   6.2%  ram  63.1%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:32:32  cpu   5.6%  ram  63.1%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:33:02  cpu   5.8%  ram  63.1%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:33:32  cpu   5.4%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:34:02  cpu   5.7%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:34:32  cpu   6.0%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:35:02  cpu   6.2%  ram  63.1%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:35:32  cpu   5.4%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:36:02  cpu   7.1%  ram  62.6%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:36:32  cpu   6.0%  ram  62.7%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:37:02  cpu   6.0%  ram  62.7%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:37:32  cpu   5.8%  ram  62.7%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:38:02  cpu   6.3%  ram  62.7%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:38:32  cpu   5.9%  ram  62.6%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:39:02  cpu   7.1%  ram  62.8%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:39:32  cpu   5.9%  ram  62.8%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:40:02  cpu   6.4%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:40:32  cpu   6.0%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:41:02  cpu   6.2%  ram  63.2%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:41:32  cpu   5.5%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:42:02  cpu   5.7%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:42:32  cpu   5.7%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:43:02  cpu   6.1%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:43:32  cpu   5.8%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:44:02  cpu   5.6%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:44:32  cpu   5.4%  ram  62.8%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:45:02  cpu   6.3%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:45:32  cpu   5.6%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:46:02  cpu   6.1%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:46:32  cpu   5.7%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:47:02  cpu   5.8%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:47:32  cpu   6.3%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:48:02  cpu   5.5%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:48:32  cpu   6.2%  ram  63.1%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:49:02  cpu   6.0%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:49:32  cpu   5.4%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:50:02  cpu   7.1%  ram  63.2%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:50:32  cpu   6.5%  ram  63.4%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:51:02  cpu   7.2%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:51:32  cpu   6.2%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:52:02  cpu   5.3%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:52:32  cpu   6.1%  ram  62.8%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:53:02  cpu   6.0%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:53:32  cpu   5.9%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:54:02  cpu   6.9%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:54:32  cpu   6.1%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:55:02  cpu   5.9%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:55:32  cpu   6.1%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:56:02  cpu   5.7%  ram  63.0%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:56:32  cpu   6.1%  ram  62.9%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:57:02  cpu   6.6%  ram  63.7%  running: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:57:12  [gpu] finished rc=0: python -m Q2.q2_train --condition patch8 --model cnn
+2026-11-23 01:57:13  [gpu] started (cpu 13%, ram 58%): python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 01:57:24  cpu  10.1%  ram  63.8%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 01:57:54  cpu   5.7%  ram  61.1%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 01:58:24  cpu   5.5%  ram  61.0%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 01:58:54  cpu   5.5%  ram  61.1%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 01:59:24  cpu   5.9%  ram  61.1%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 01:59:54  cpu   5.4%  ram  61.1%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 02:00:24  cpu   6.9%  ram  61.7%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 02:00:54  cpu   5.9%  ram  61.6%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 02:01:24  cpu   6.2%  ram  61.5%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 02:01:54  cpu   5.8%  ram  61.5%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 02:02:24  cpu   6.1%  ram  61.4%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 02:02:54  cpu   5.9%  ram  61.4%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 02:03:24  cpu   6.2%  ram  61.4%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 02:03:54  cpu   5.5%  ram  61.3%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 02:04:24  cpu   5.6%  ram  61.4%  running: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 02:04:34  [gpu] finished rc=0: python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+2026-11-23 02:04:35  [gpu] started (cpu 10%, ram 58%): python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:04:45  cpu  11.5%  ram  67.6%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:05:15  cpu   6.4%  ram  63.6%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:05:45  cpu   5.8%  ram  63.4%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:06:15  cpu   5.4%  ram  63.0%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:06:45  cpu   6.0%  ram  63.2%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:07:15  cpu   6.1%  ram  63.3%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:07:45  cpu   5.7%  ram  63.1%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:08:15  cpu   5.7%  ram  63.2%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:08:45  cpu   5.4%  ram  63.1%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:09:15  cpu   5.8%  ram  63.3%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:09:45  cpu   5.4%  ram  63.2%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:10:15  cpu   6.4%  ram  63.6%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:10:45  cpu   6.7%  ram  63.5%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:11:15  cpu   6.4%  ram  63.4%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:11:45  cpu   5.4%  ram  63.4%  running: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:11:55  [gpu] finished rc=0: python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+2026-11-23 02:11:56  [gpu] started (cpu 15%, ram 58%): python -m Q2.q2_eval
+2026-11-23 02:12:06  cpu  19.2%  ram  58.3%  running: python -m Q2.q2_eval
+2026-11-23 02:12:06  [gpu] finished rc=0: python -m Q2.q2_eval
+2026-11-23 02:12:07  [cpu] started (cpu 8%, ram 58%): python -m Q4.q4_svm test
+2026-11-23 02:12:17  cpu  10.8%  ram  60.3%  running: python -m Q4.q4_svm test
+2026-11-23 02:12:47  cpu  10.6%  ram  60.8%  running: python -m Q4.q4_svm test
+2026-11-23 02:13:17  cpu  10.7%  ram  60.9%  running: python -m Q4.q4_svm test
+2026-11-23 02:13:47  cpu   9.5%  ram  61.0%  running: python -m Q4.q4_svm test
+2026-11-23 02:13:57  [cpu] finished rc=0: python -m Q4.q4_svm test
+2026-11-23 02:13:58  [cpu] started (cpu 10%, ram 59%): python -m Q4.q4_analysis pairs
+2026-11-23 02:14:08  cpu  11.8%  ram  61.5%  running: python -m Q4.q4_analysis pairs
+2026-11-23 02:14:38  cpu  10.8%  ram  61.5%  running: python -m Q4.q4_analysis pairs
+2026-11-23 02:15:08  cpu  11.2%  ram  61.4%  running: python -m Q4.q4_analysis pairs
+2026-11-23 02:15:38  cpu  10.7%  ram  61.2%  running: python -m Q4.q4_analysis pairs
+2026-11-23 02:16:08  cpu  11.4%  ram  60.9%  running: python -m Q4.q4_analysis pairs
+2026-11-23 02:16:38  cpu  10.8%  ram  58.5%  running: python -m Q4.q4_analysis pairs
+2026-11-23 02:16:38  [cpu] finished rc=0: python -m Q4.q4_analysis pairs
+2026-11-23 02:16:39  [cpu] started (cpu 12%, ram 58%): python -m Q4.q4_analysis cluster-select
+2026-11-23 02:16:49  cpu  35.7%  ram  61.9%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:17:19  cpu  32.8%  ram  62.0%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:17:49  cpu  29.9%  ram  61.8%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:18:19  cpu  38.6%  ram  62.1%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:18:49  cpu  27.7%  ram  62.1%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:19:19  cpu  26.0%  ram  62.4%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:19:49  cpu  30.5%  ram  62.4%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:20:19  cpu  36.3%  ram  62.7%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:20:49  cpu  39.1%  ram  62.6%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:21:19  cpu  40.0%  ram  61.1%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:21:49  cpu  39.3%  ram  61.2%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:22:19  cpu  39.3%  ram  62.2%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:22:49  cpu  39.8%  ram  61.1%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:23:19  cpu  39.6%  ram  62.2%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:23:49  cpu  37.9%  ram  62.2%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:24:19  cpu  35.4%  ram  62.3%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:24:49  cpu  38.0%  ram  61.2%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:25:19  cpu  40.7%  ram  61.1%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:25:49  cpu  40.8%  ram  61.2%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:26:19  cpu  40.8%  ram  62.2%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:26:49  cpu  40.4%  ram  62.2%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:27:19  cpu  42.1%  ram  62.3%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:27:49  cpu  40.1%  ram  62.2%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:28:19  cpu  41.4%  ram  61.3%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:28:49  cpu  41.3%  ram  61.2%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:29:19  cpu  40.9%  ram  61.2%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:29:49  cpu  34.5%  ram  61.6%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:30:19  cpu  41.1%  ram  62.6%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:30:49  cpu  41.2%  ram  61.4%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:31:19  cpu  33.7%  ram  61.5%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:31:49  cpu  41.1%  ram  62.5%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:32:19  cpu  13.9%  ram  58.8%  running: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:32:19  [cpu] finished rc=0: python -m Q4.q4_analysis cluster-select
+2026-11-23 02:32:20  [cpu] started (cpu 11%, ram 59%): python -m Q4.q4_analysis cluster-test
+2026-11-23 02:32:30  cpu  28.4%  ram  62.4%  running: python -m Q4.q4_analysis cluster-test
+2026-11-23 02:32:50  [cpu] finished rc=0: python -m Q4.q4_analysis cluster-test
+2026-11-23 02:32:51  [cpu] started (cpu 14%, ram 59%): python -m Q4.q4_analysis compare
+2026-11-23 02:33:01  cpu   8.2%  ram  58.9%  running: python -m Q4.q4_analysis compare
+2026-11-23 02:33:01  [cpu] finished rc=0: python -m Q4.q4_analysis compare
+2026-11-23 02:33:02  [cpu] started (cpu 11%, ram 59%): python -m Q3.plots --scatter-only
+2026-11-23 02:33:12  cpu   8.5%  ram  58.8%  running: python -m Q3.plots --scatter-only
+2026-11-23 02:33:12  [cpu] finished rc=0: python -m Q3.plots --scatter-only
+2026-11-23 02:33:13  [cpu] started (cpu 9%, ram 59%): python -m Q2.plots
+2026-11-23 02:33:23  cpu  10.7%  ram  59.0%  running: python -m Q2.plots
+2026-11-23 02:33:23  [cpu] finished rc=0: python -m Q2.plots
+2026-11-23 02:33:24  [cpu] started (cpu 8%, ram 59%): python -m Q4.plots
+2026-11-23 02:33:34  cpu   7.2%  ram  58.9%  running: python -m Q4.plots
+2026-11-23 02:33:34  [cpu] finished rc=0: python -m Q4.plots
+2026-11-23 02:33:35  [cpu] started (cpu 8%, ram 59%): python -m Q4.q4_analysis pairs
+2026-11-23 02:33:45  cpu  10.2%  ram  62.1%  running: python -m Q4.q4_analysis pairs
+2026-11-23 02:34:15  cpu  10.5%  ram  62.6%  running: python -m Q4.q4_analysis pairs
+2026-11-23 02:34:45  cpu  10.4%  ram  62.6%  running: python -m Q4.q4_analysis pairs
+2026-11-23 02:35:15  cpu  10.7%  ram  62.4%  running: python -m Q4.q4_analysis pairs
+2026-11-23 02:35:45  cpu   9.5%  ram  62.0%  running: python -m Q4.q4_analysis pairs
+2026-11-23 02:36:15  cpu   9.4%  ram  59.0%  running: python -m Q4.q4_analysis pairs
+2026-11-23 02:36:15  [cpu] finished rc=0: python -m Q4.q4_analysis pairs
+2026-11-23 02:36:16  [cpu] started (cpu 9%, ram 59%): python -m Q2.plots
+2026-11-23 02:36:26  cpu  10.2%  ram  59.3%  running: python -m Q2.plots
+2026-11-23 02:36:26  [cpu] finished rc=0: python -m Q2.plots
+2026-11-23 02:36:27  [cpu] started (cpu 7%, ram 59%): python -m Q4.plots
+2026-11-23 02:36:37  cpu   6.4%  ram  59.4%  running: python -m Q4.plots
+2026-11-23 02:36:37  [cpu] finished rc=0: python -m Q4.plots
+2026-11-23 02:36:38  [cpu] started (cpu 10%, ram 60%): curl -sS --max-time 900 -C - -o data/cifar-10-python.tar.gz https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz && tar -xzf data/cifar-10-python.tar.gz -C data && python -m common.prepare_data --compare
+2026-11-23 02:36:48  cpu   4.5%  ram  59.2%  running: curl -sS --max-time 900 -C - -o data/cifar-10-python.tar.gz https://ww
+2026-11-23 02:36:48  [cpu] finished rc=33: curl -sS --max-time 900 -C - -o data/cifar-10-python.tar.gz https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz && tar -xzf data/cifar-10-python.tar.gz -C data && python -m common.prepare_data --compare
+2026-11-23 02:36:48  queue empty

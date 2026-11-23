@@ -1,0 +1,5 @@
+(c) AE-16: test mse(pix) 0.01647  linear probe test 0.3313  knn test 0.4215
+(c) AE-128: test mse(pix) 0.00499  linear probe test 0.4096  knn test 0.4094
+(c) AE-1024: test mse(pix) 0.00194  linear probe test 0.5324  knn test 0.4847
+(c) DAE-1024: test mse(pix) 0.00243  linear probe test 0.5495  knn test 0.4900
+(c) raw pixels: {'dim': 3072, 'linear_probe': {'wd': 0.01, 'val_acc': 0.41419997811317444, 'test_acc': 0.4148999750614166, 'train_acc': 0.4590444564819336}, 'knn': {'k': 10, 'val_acc': 0.4283999800682068, 'test_acc': 0.42579999566078186}}

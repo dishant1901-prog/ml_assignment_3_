@@ -1,0 +1,1 @@
+selected {'kernel': 'rbf', 'C': 10, 'train_acc': 0.9982, 'val_acc': 0.5394, 'sv_fraction': 0.9649, 'n_sv': 9649, 'fit_seconds': 214.87962698936462} test acc 0.5278

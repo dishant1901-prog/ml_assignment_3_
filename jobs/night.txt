@@ -1,0 +1,22 @@
+gpu | Q1/logs/q1a_cnn_lr1.0.log      | python -m Q1.q1a_train --model cnn --lr 1.0
+gpu | Q1/logs/q1a_select_test.log    | python -m Q1.q1a_select_test
+gpu | Q3/logs/q3_eval_b.log          | python -m Q3.q3_eval --parts b
+gpu | Q2/logs/q2_mlp_lr1.0.log       | python -m Q2.q2_train --condition perm --model mlp --lr 1.0 && python -m Q2.q2_train --condition patch4 --model mlp --lr 1.0 && python -m Q2.q2_train --condition patch8 --model mlp --lr 1.0 && python -m Q2.q2_train --condition patch16 --model mlp --lr 1.0
+cpu | Q4/logs/q4_sweep.log           | python -m Q4.q4_svm sweep
+gpu | Q2/logs/q2_perm_cnn.log        | python -m Q2.q2_train --condition perm --model cnn
+gpu | Q2/logs/q2_patch8_cnn.log      | python -m Q2.q2_train --condition patch8 --model cnn
+gpu | Q2/logs/q2_patch4_cnn.log      | python -m Q2.q2_train --condition patch4 --model cnn --lr-from patch8
+gpu | Q2/logs/q2_patch16_cnn.log     | python -m Q2.q2_train --condition patch16 --model cnn --lr-from patch8
+gpu | Q2/logs/q2_eval.log            | python -m Q2.q2_eval
+cpu | Q4/logs/q4_test.log            | python -m Q4.q4_svm test
+cpu | Q4/logs/q4_pairs.log           | python -m Q4.q4_analysis pairs
+cpu | Q4/logs/q4_cluster_select.log  | python -m Q4.q4_analysis cluster-select
+cpu | Q4/logs/q4_cluster_test.log    | python -m Q4.q4_analysis cluster-test
+cpu | Q4/logs/q4_compare.log         | python -m Q4.q4_analysis compare
+cpu | Q3/logs/plots.log            | python -m Q3.plots --scatter-only
+cpu | Q2/logs/plots.log            | python -m Q2.plots
+cpu | Q4/logs/plots.log            | python -m Q4.plots
+cpu | Q4/logs/q4_pairs_redo.log      | python -m Q4.q4_analysis pairs
+cpu | Q2/logs/plots_redo.log         | python -m Q2.plots
+cpu | Q4/logs/plots_redo.log         | python -m Q4.plots
+cpu | logs/official_data.log         | curl -sS --max-time 900 -C - -o data/cifar-10-python.tar.gz https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz && tar -xzf data/cifar-10-python.tar.gz -C data && python -m common.prepare_data --compare

@@ -1,0 +1,8 @@
+{'pair': ['automobile', 'cat'], 'svm_pairwise_acc': 0.9045, 'cluster_pairwise_acc': 0.6305, 'frac_in_mixed_clusters': 0.8515, 'difference': 0.274}
+{'pair': ['automobile', 'horse'], 'svm_pairwise_acc': 0.923, 'cluster_pairwise_acc': 0.658, 'frac_in_mixed_clusters': 0.9235, 'difference': 0.265}
+{'pair': ['automobile', 'dog'], 'svm_pairwise_acc': 0.9365, 'cluster_pairwise_acc': 0.675, 'frac_in_mixed_clusters': 0.831, 'difference': 0.26149999999999995}
+{'pair': ['automobile', 'frog'], 'svm_pairwise_acc': 0.9405, 'cluster_pairwise_acc': 0.68, 'frac_in_mixed_clusters': 0.5955, 'difference': 0.26049999999999995}
+{'pair': ['horse', 'truck'], 'svm_pairwise_acc': 0.8915, 'cluster_pairwise_acc': 0.649, 'frac_in_mixed_clusters': 0.81, 'difference': 0.24249999999999994}
+{'pair': ['automobile', 'deer'], 'svm_pairwise_acc': 0.9385, 'cluster_pairwise_acc': 0.7025, 'frac_in_mixed_clusters': 0.5935, 'difference': 0.236}
+{'pair': ['automobile', 'bird'], 'svm_pairwise_acc': 0.919, 'cluster_pairwise_acc': 0.7, 'frac_in_mixed_clusters': 0.4705, 'difference': 0.21900000000000008}
+{'pair': ['deer', 'frog'], 'svm_pairwise_acc': 0.812, 'cluster_pairwise_acc': 0.602, 'frac_in_mixed_clusters': 0.894, 'difference': 0.21000000000000008}

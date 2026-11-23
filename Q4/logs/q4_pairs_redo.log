@@ -1,0 +1,4 @@
+cat dog {'classes': ['cat', 'dog'], 'test_confusions': 392, 'separation_ratio': 0.014802706427872181, 'pair_sv_fraction': 0.9465, 'pairwise_test_acc': 0.6335}
+automobile truck {'classes': ['automobile', 'truck'], 'test_confusions': 341, 'separation_ratio': 0.027033111080527306, 'pair_sv_fraction': 0.9225, 'pairwise_test_acc': 0.7705}
+bird deer {'classes': ['bird', 'deer'], 'test_confusions': 288, 'separation_ratio': 0.016847064718604088, 'pair_sv_fraction': 0.838, 'pairwise_test_acc': 0.703}
+spearman(separation ratio, confusions) = -0.8268774703557312

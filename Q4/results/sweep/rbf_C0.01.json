@@ -1,0 +1,9 @@
+{
+  "kernel": "rbf",
+  "C": 0.01,
+  "train_acc": 0.3239,
+  "val_acc": 0.2948,
+  "sv_fraction": 1.0,
+  "n_sv": 10000,
+  "fit_seconds": 159.54786205291748
+}

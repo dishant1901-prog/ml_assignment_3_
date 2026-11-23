@@ -1,0 +1,55 @@
+\begin{abstract}
+We study four questions on CIFAR-10~\cite{krizhevsky2009cifar} with controlled comparisons rather than
+leaderboard numbers. A fully connected network fits the training set but generalises poorly; a CNN with the
+same parameter count and training budget gains 32 test points, while four times more MLP parameters gain 1.4.
+Training on partly random labels shows that the MLP learns transferable structure in the first few epochs
+and memorises afterwards. A fixed pixel permutation leaves the MLP unchanged but costs the CNN most of its
+advantage, and shuffling image patches separates local evidence from global layout. For autoencoders,
+reconstruction error and class information only agree roughly, and denoising recovers part, not all, of what a
+fixed classifier needs. Finally an SVM and a clustering of the same autoencoder code are compared class pair by
+class pair. All numbers quoted as final results are test-set numbers obtained after every choice was fixed on
+validation data.
+\end{abstract}
+
+\section{Common setup}
+\label{sec:setup}
+\textbf{Data and split.} Images come from the CIFAR-10 parquet release \texttt{uoft-cs/cifar10} (revision
+\texttt{0b27149}); it holds the same images as the official batches (identical channel statistics, test set in
+the official order) but stores the training images in a different order, to which the saved split indices
+refer. The 50{,}000 training images were split once into a stratified 45{,}000 /
+5{,}000 train/validation split (4{,}500/500 per class) with seed \texttt{242003}, the digits of the roll number
+M24MA2003 in order (\texttt{common/split\_seed242003.npz}). Every question loads this file. Inputs are normalised
+per channel with the mean and standard deviation of the 45k training split. The validation split is used for
+every model, architecture and hyper-parameter choice; the official 10k test set is evaluated only after the
+choices are fixed, once per selected model.
+
+\textbf{Training protocol (shared by Q1 and Q2).} 40 epochs, batch 128, SGD with Nesterov momentum 0.9, weight
+decay $5\!\times\!10^{-4}$, OneCycle schedule (15\% warm-up), seed 242003. The peak learning rate is chosen per
+model from $\{0.01, 0.03, 0.1, 0.3, 1.0\}$ by final-epoch validation accuracy. The grid started as
+$\{0.01,\dots,0.1\}$ and was widened twice because a model was selected at its upper edge; every model was then
+run on the full five-value grid, so tuning effort is identical. Train accuracy in all curves is measured in
+evaluation mode on the un-augmented training images. Each configuration is run with one seed, so differences of
+one to two points should not be over-read. Implementation: PyTorch~\cite{paszke2019pytorch} and
+scikit-learn~\cite{pedregosa2011scikit}; no pretrained weights or external data.
+
+\textbf{Reuse across questions.} Table~\ref{tab:reuse} lists every model or result used outside the question
+that introduced it.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{@{}lll@{}}
+\toprule
+Component & Introduced & Reused in \\
+\midrule
+Split, normalisation, training loop & Setup & all \\
+MLP 3072-336-336-10 and CNN (Tab.~\ref{tab:q1a}) & Q1(a) & Q2(a)--(c) \\
+Clean-condition Q2 results (no retraining) & Q1(a) & Q2(a) \\
+Selected Q1(a) CNN as fixed classifier & Q1(a) & Q3(b) \\
+Clean AE-1024 & Q3(a) & Q3(b),(c) \\
+DAE-1024 encoder (frozen) as representation & Q3(b) & Q3(c), Q4 \\
+\bottomrule
+\end{tabular}
+\caption{Models and results reused across questions.}
+\label{tab:reuse}
+\end{table}

@@ -1,0 +1,4 @@
+mlp       params 1,150,474  lr 0.3   train 0.9707  val 0.5780  test 0.5726
+cnn       params 1,148,874  lr 0.3   train 1.0000  val 0.9002  test 0.8971
+mlp_wide  params 4,884,490  lr 0.1   train 1.0000  val 0.6000  test 0.5868
+mlp_aug   params 1,150,474  lr 0.1   train 0.6638  val 0.6148  test 0.6213

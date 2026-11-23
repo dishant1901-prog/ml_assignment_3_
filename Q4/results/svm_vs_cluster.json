@@ -1,0 +1,506 @@
+{
+  "pairs": [
+    {
+      "pair": [
+        "automobile",
+        "cat"
+      ],
+      "svm_pairwise_acc": 0.9045,
+      "cluster_pairwise_acc": 0.6305,
+      "frac_in_mixed_clusters": 0.8515,
+      "difference": 0.274
+    },
+    {
+      "pair": [
+        "automobile",
+        "horse"
+      ],
+      "svm_pairwise_acc": 0.923,
+      "cluster_pairwise_acc": 0.658,
+      "frac_in_mixed_clusters": 0.9235,
+      "difference": 0.265
+    },
+    {
+      "pair": [
+        "automobile",
+        "dog"
+      ],
+      "svm_pairwise_acc": 0.9365,
+      "cluster_pairwise_acc": 0.675,
+      "frac_in_mixed_clusters": 0.831,
+      "difference": 0.26149999999999995
+    },
+    {
+      "pair": [
+        "automobile",
+        "frog"
+      ],
+      "svm_pairwise_acc": 0.9405,
+      "cluster_pairwise_acc": 0.68,
+      "frac_in_mixed_clusters": 0.5955,
+      "difference": 0.26049999999999995
+    },
+    {
+      "pair": [
+        "horse",
+        "truck"
+      ],
+      "svm_pairwise_acc": 0.8915,
+      "cluster_pairwise_acc": 0.649,
+      "frac_in_mixed_clusters": 0.81,
+      "difference": 0.24249999999999994
+    },
+    {
+      "pair": [
+        "automobile",
+        "deer"
+      ],
+      "svm_pairwise_acc": 0.9385,
+      "cluster_pairwise_acc": 0.7025,
+      "frac_in_mixed_clusters": 0.5935,
+      "difference": 0.236
+    },
+    {
+      "pair": [
+        "automobile",
+        "bird"
+      ],
+      "svm_pairwise_acc": 0.919,
+      "cluster_pairwise_acc": 0.7,
+      "frac_in_mixed_clusters": 0.4705,
+      "difference": 0.21900000000000008
+    },
+    {
+      "pair": [
+        "deer",
+        "frog"
+      ],
+      "svm_pairwise_acc": 0.812,
+      "cluster_pairwise_acc": 0.602,
+      "frac_in_mixed_clusters": 0.894,
+      "difference": 0.21000000000000008
+    },
+    {
+      "pair": [
+        "bird",
+        "frog"
+      ],
+      "svm_pairwise_acc": 0.807,
+      "cluster_pairwise_acc": 0.611,
+      "frac_in_mixed_clusters": 0.9075,
+      "difference": 0.19600000000000006
+    },
+    {
+      "pair": [
+        "cat",
+        "horse"
+      ],
+      "svm_pairwise_acc": 0.8225,
+      "cluster_pairwise_acc": 0.631,
+      "frac_in_mixed_clusters": 0.8465,
+      "difference": 0.1915
+    },
+    {
+      "pair": [
+        "frog",
+        "horse"
+      ],
+      "svm_pairwise_acc": 0.9015,
+      "cluster_pairwise_acc": 0.71,
+      "frac_in_mixed_clusters": 0.6645,
+      "difference": 0.1915
+    },
+    {
+      "pair": [
+        "ship",
+        "truck"
+      ],
+      "svm_pairwise_acc": 0.8795,
+      "cluster_pairwise_acc": 0.6985,
+      "frac_in_mixed_clusters": 0.7905,
+      "difference": 0.18099999999999994
+    },
+    {
+      "pair": [
+        "dog",
+        "horse"
+      ],
+      "svm_pairwise_acc": 0.814,
+      "cluster_pairwise_acc": 0.6385,
+      "frac_in_mixed_clusters": 0.853,
+      "difference": 0.1755
+    },
+    {
+      "pair": [
+        "automobile",
+        "ship"
+      ],
+      "svm_pairwise_acc": 0.891,
+      "cluster_pairwise_acc": 0.7155,
+      "frac_in_mixed_clusters": 0.7055,
+      "difference": 0.1755
+    },
+    {
+      "pair": [
+        "horse",
+        "ship"
+      ],
+      "svm_pairwise_acc": 0.926,
+      "cluster_pairwise_acc": 0.753,
+      "frac_in_mixed_clusters": 0.553,
+      "difference": 0.17300000000000004
+    },
+    {
+      "pair": [
+        "dog",
+        "truck"
+      ],
+      "svm_pairwise_acc": 0.921,
+      "cluster_pairwise_acc": 0.7535,
+      "frac_in_mixed_clusters": 0.4505,
+      "difference": 0.1675000000000001
+    },
+    {
+      "pair": [
+        "bird",
+        "truck"
+      ],
+      "svm_pairwise_acc": 0.9135,
+      "cluster_pairwise_acc": 0.756,
+      "frac_in_mixed_clusters": 0.371,
+      "difference": 0.15749999999999997
+    },
+    {
+      "pair": [
+        "airplane",
+        "ship"
+      ],
+      "svm_pairwise_acc": 0.819,
+      "cluster_pairwise_acc": 0.663,
+      "frac_in_mixed_clusters": 0.862,
+      "difference": 0.15599999999999992
+    },
+    {
+      "pair": [
+        "deer",
+        "truck"
+      ],
+      "svm_pairwise_acc": 0.9275,
+      "cluster_pairwise_acc": 0.773,
+      "frac_in_mixed_clusters": 0.3015,
+      "difference": 0.15449999999999997
+    },
+    {
+      "pair": [
+        "frog",
+        "truck"
+      ],
+      "svm_pairwise_acc": 0.9325,
+      "cluster_pairwise_acc": 0.78,
+      "frac_in_mixed_clusters": 0.3605,
+      "difference": 0.15249999999999997
+    },
+    {
+      "pair": [
+        "cat",
+        "truck"
+      ],
+      "svm_pairwise_acc": 0.8885,
+      "cluster_pairwise_acc": 0.737,
+      "frac_in_mixed_clusters": 0.5235,
+      "difference": 0.15149999999999997
+    },
+    {
+      "pair": [
+        "automobile",
+        "truck"
+      ],
+      "svm_pairwise_acc": 0.7705,
+      "cluster_pairwise_acc": 0.626,
+      "frac_in_mixed_clusters": 1.0,
+      "difference": 0.14449999999999996
+    },
+    {
+      "pair": [
+        "deer",
+        "horse"
+      ],
+      "svm_pairwise_acc": 0.808,
+      "cluster_pairwise_acc": 0.664,
+      "frac_in_mixed_clusters": 0.847,
+      "difference": 0.14400000000000002
+    },
+    {
+      "pair": [
+        "cat",
+        "deer"
+      ],
+      "svm_pairwise_acc": 0.79,
+      "cluster_pairwise_acc": 0.649,
+      "frac_in_mixed_clusters": 0.864,
+      "difference": 0.14100000000000001
+    },
+    {
+      "pair": [
+        "airplane",
+        "automobile"
+      ],
+      "svm_pairwise_acc": 0.8935,
+      "cluster_pairwise_acc": 0.7535,
+      "frac_in_mixed_clusters": 0.339,
+      "difference": 0.14
+    },
+    {
+      "pair": [
+        "dog",
+        "frog"
+      ],
+      "svm_pairwise_acc": 0.833,
+      "cluster_pairwise_acc": 0.695,
+      "frac_in_mixed_clusters": 0.814,
+      "difference": 0.138
+    },
+    {
+      "pair": [
+        "bird",
+        "ship"
+      ],
+      "svm_pairwise_acc": 0.9115,
+      "cluster_pairwise_acc": 0.7785,
+      "frac_in_mixed_clusters": 0.502,
+      "difference": 0.133
+    },
+    {
+      "pair": [
+        "airplane",
+        "truck"
+      ],
+      "svm_pairwise_acc": 0.882,
+      "cluster_pairwise_acc": 0.7525,
+      "frac_in_mixed_clusters": 0.378,
+      "difference": 0.12950000000000006
+    },
+    {
+      "pair": [
+        "cat",
+        "frog"
+      ],
+      "svm_pairwise_acc": 0.791,
+      "cluster_pairwise_acc": 0.666,
+      "frac_in_mixed_clusters": 0.9605,
+      "difference": 0.125
+    },
+    {
+      "pair": [
+        "deer",
+        "dog"
+      ],
+      "svm_pairwise_acc": 0.7975,
+      "cluster_pairwise_acc": 0.674,
+      "frac_in_mixed_clusters": 0.8295,
+      "difference": 0.12349999999999994
+    },
+    {
+      "pair": [
+        "cat",
+        "ship"
+      ],
+      "svm_pairwise_acc": 0.9165,
+      "cluster_pairwise_acc": 0.795,
+      "frac_in_mixed_clusters": 0.368,
+      "difference": 0.12149999999999994
+    },
+    {
+      "pair": [
+        "dog",
+        "ship"
+      ],
+      "svm_pairwise_acc": 0.92,
+      "cluster_pairwise_acc": 0.7995,
+      "frac_in_mixed_clusters": 0.405,
+      "difference": 0.12050000000000005
+    },
+    {
+      "pair": [
+        "frog",
+        "ship"
+      ],
+      "svm_pairwise_acc": 0.947,
+      "cluster_pairwise_acc": 0.827,
+      "frac_in_mixed_clusters": 0.1765,
+      "difference": 0.12
+    },
+    {
+      "pair": [
+        "bird",
+        "horse"
+      ],
+      "svm_pairwise_acc": 0.8275,
+      "cluster_pairwise_acc": 0.7095,
+      "frac_in_mixed_clusters": 0.775,
+      "difference": 0.118
+    },
+    {
+      "pair": [
+        "airplane",
+        "horse"
+      ],
+      "svm_pairwise_acc": 0.906,
+      "cluster_pairwise_acc": 0.789,
+      "frac_in_mixed_clusters": 0.3135,
+      "difference": 0.11699999999999999
+    },
+    {
+      "pair": [
+        "bird",
+        "deer"
+      ],
+      "svm_pairwise_acc": 0.703,
+      "cluster_pairwise_acc": 0.5885,
+      "frac_in_mixed_clusters": 0.9265,
+      "difference": 0.11449999999999994
+    },
+    {
+      "pair": [
+        "deer",
+        "ship"
+      ],
+      "svm_pairwise_acc": 0.917,
+      "cluster_pairwise_acc": 0.803,
+      "frac_in_mixed_clusters": 0.2455,
+      "difference": 0.11399999999999999
+    },
+    {
+      "pair": [
+        "airplane",
+        "cat"
+      ],
+      "svm_pairwise_acc": 0.8955,
+      "cluster_pairwise_acc": 0.7925,
+      "frac_in_mixed_clusters": 0.382,
+      "difference": 0.10299999999999998
+    },
+    {
+      "pair": [
+        "airplane",
+        "dog"
+      ],
+      "svm_pairwise_acc": 0.914,
+      "cluster_pairwise_acc": 0.811,
+      "frac_in_mixed_clusters": 0.2705,
+      "difference": 0.10299999999999998
+    },
+    {
+      "pair": [
+        "bird",
+        "cat"
+      ],
+      "svm_pairwise_acc": 0.7595,
+      "cluster_pairwise_acc": 0.66,
+      "frac_in_mixed_clusters": 0.9135,
+      "difference": 0.09949999999999992
+    },
+    {
+      "pair": [
+        "airplane",
+        "bird"
+      ],
+      "svm_pairwise_acc": 0.841,
+      "cluster_pairwise_acc": 0.751,
+      "frac_in_mixed_clusters": 0.3255,
+      "difference": 0.08999999999999997
+    },
+    {
+      "pair": [
+        "airplane",
+        "frog"
+      ],
+      "svm_pairwise_acc": 0.9315,
+      "cluster_pairwise_acc": 0.846,
+      "frac_in_mixed_clusters": 0.056,
+      "difference": 0.08550000000000002
+    },
+    {
+      "pair": [
+        "airplane",
+        "deer"
+      ],
+      "svm_pairwise_acc": 0.8865,
+      "cluster_pairwise_acc": 0.8085,
+      "frac_in_mixed_clusters": 0.1535,
+      "difference": 0.07799999999999996
+    },
+    {
+      "pair": [
+        "bird",
+        "dog"
+      ],
+      "svm_pairwise_acc": 0.752,
+      "cluster_pairwise_acc": 0.6855,
+      "frac_in_mixed_clusters": 0.7755,
+      "difference": 0.0665
+    },
+    {
+      "pair": [
+        "cat",
+        "dog"
+      ],
+      "svm_pairwise_acc": 0.6335,
+      "cluster_pairwise_acc": 0.584,
+      "frac_in_mixed_clusters": 1.0,
+      "difference": 0.04949999999999999
+    }
+  ],
+  "per_class": [
+    {
+      "class": "airplane",
+      "largest_cluster_share": 0.329,
+      "dominant_cluster": 1
+    },
+    {
+      "class": "automobile",
+      "largest_cluster_share": 0.159,
+      "dominant_cluster": 6
+    },
+    {
+      "class": "bird",
+      "largest_cluster_share": 0.366,
+      "dominant_cluster": 5
+    },
+    {
+      "class": "cat",
+      "largest_cluster_share": 0.155,
+      "dominant_cluster": 4
+    },
+    {
+      "class": "deer",
+      "largest_cluster_share": 0.376,
+      "dominant_cluster": 5
+    },
+    {
+      "class": "dog",
+      "largest_cluster_share": 0.292,
+      "dominant_cluster": 7
+    },
+    {
+      "class": "frog",
+      "largest_cluster_share": 0.373,
+      "dominant_cluster": 5
+    },
+    {
+      "class": "horse",
+      "largest_cluster_share": 0.246,
+      "dominant_cluster": 2
+    },
+    {
+      "class": "ship",
+      "largest_cluster_share": 0.366,
+      "dominant_cluster": 8
+    },
+    {
+      "class": "truck",
+      "largest_cluster_share": 0.27,
+      "dominant_cluster": 2
+    }
+  ]
+}

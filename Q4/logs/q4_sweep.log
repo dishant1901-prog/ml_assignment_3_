@@ -1,0 +1,58 @@
+[Parallel(n_jobs=15)]: Using backend LokyBackend with 15 concurrent workers.
+[Parallel(n_jobs=2)]: Using backend LokyBackend with 2 concurrent workers.
+{'kernel': 'linear', 'C': 0.01, 'train_acc': 0.681, 'val_acc': 0.4672, 'sv_fraction': 0.8525, 'n_sv': 8525, 'fit_seconds': 124.10129117965698}
+{'kernel': 'linear', 'C': 0.1, 'train_acc': 0.8317, 'val_acc': 0.4384, 'sv_fraction': 0.8233, 'n_sv': 8233, 'fit_seconds': 142.40783166885376}
+{'kernel': 'linear', 'C': 1, 'train_acc': 0.9544, 'val_acc': 0.4224, 'sv_fraction': 0.8074, 'n_sv': 8074, 'fit_seconds': 172.48343706130981}
+{'kernel': 'linear', 'C': 10, 'train_acc': 0.9966, 'val_acc': 0.4088, 'sv_fraction': 0.8012, 'n_sv': 8012, 'fit_seconds': 276.5233256816864}
+{'kernel': 'rbf', 'C': 0.01, 'train_acc': 0.3239, 'val_acc': 0.2948, 'sv_fraction': 1.0, 'n_sv': 10000, 'fit_seconds': 159.54786205291748}
+{'kernel': 'linear', 'C': 100, 'train_acc': 1.0, 'val_acc': 0.406, 'sv_fraction': 0.7992, 'n_sv': 7992, 'fit_seconds': 298.5983591079712}
+{'kernel': 'rbf', 'C': 0.1, 'train_acc': 0.4769, 'val_acc': 0.4054, 'sv_fraction': 0.9885, 'n_sv': 9885, 'fit_seconds': 197.45518112182617}
+{'kernel': 'rbf', 'C': 1, 'train_acc': 0.8406, 'val_acc': 0.5124, 'sv_fraction': 0.9532, 'n_sv': 9532, 'fit_seconds': 184.97295355796814}
+{'kernel': 'rbf', 'C': 10, 'train_acc': 0.9982, 'val_acc': 0.5394, 'sv_fraction': 0.9649, 'n_sv': 9649, 'fit_seconds': 214.87962698936462}
+{'kernel': 'rbf', 'C': 100, 'train_acc': 1.0, 'val_acc': 0.5392, 'sv_fraction': 0.9643, 'n_sv': 9643, 'fit_seconds': 215.33036303520203}
+{'kernel': 'poly3', 'C': 0.1, 'train_acc': 0.753, 'val_acc': 0.509, 'sv_fraction': 0.9416, 'n_sv': 9416, 'fit_seconds': 181.19806742668152}
+{'kernel': 'poly3', 'C': 0.01, 'train_acc': 0.4887, 'val_acc': 0.4294, 'sv_fraction': 0.9876, 'n_sv': 9876, 'fit_seconds': 207.87541365623474}
+{'kernel': 'poly3', 'C': 1, 'train_acc': 0.9742, 'val_acc': 0.5314, 'sv_fraction': 0.9284, 'n_sv': 9284, 'fit_seconds': 166.30443453788757}
+{'kernel': 'poly3', 'C': 10, 'train_acc': 0.9997, 'val_acc': 0.5178, 'sv_fraction': 0.9208, 'n_sv': 9208, 'fit_seconds': 164.0119023323059}
+{'kernel': 'poly3', 'C': 100, 'train_acc': 1.0, 'val_acc': 0.5162, 'sv_fraction': 0.9203, 'n_sv': 9203, 'fit_seconds': 95.75106906890869}
+[Parallel(n_jobs=2)]: Done  15 out of  15 | elapsed: 24.0min finished
+kernel        C  train    val SV frac   time
+linear     0.01 0.6810 0.4672 0.8525    124
+linear      0.1 0.8317 0.4384 0.8233    142
+linear        1 0.9544 0.4224 0.8074    172
+linear       10 0.9966 0.4088 0.8012    277
+linear      100 1.0000 0.4060 0.7992    299
+rbf        0.01 0.3239 0.2948 1.0000    160
+rbf         0.1 0.4769 0.4054 0.9885    197
+rbf           1 0.8406 0.5124 0.9532    185
+rbf          10 0.9982 0.5394 0.9649    215
+rbf         100 1.0000 0.5392 0.9643    215
+poly3      0.01 0.4887 0.4294 0.9876    208
+poly3       0.1 0.7530 0.5090 0.9416    181
+poly3         1 0.9742 0.5314 0.9284    166
+poly3        10 0.9997 0.5178 0.9208    164
+poly3       100 1.0000 0.5162 0.9203     96
+[Parallel(n_jobs=2)]: Using backend LokyBackend with 2 concurrent workers.
+{'kernel': 'linear', 'C': 0.001, 'train_acc': 0.5729, 'val_acc': 0.4562, 'sv_fraction': 0.9048, 'n_sv': 9048, 'fit_seconds': 135.07912492752075}
+{'kernel': 'rbf', 'C': 0.001, 'train_acc': 0.324, 'val_acc': 0.2946, 'sv_fraction': 1.0, 'n_sv': 10000, 'fit_seconds': 227.6617453098297}
+{'kernel': 'poly3', 'C': 0.001, 'train_acc': 0.3589, 'val_acc': 0.3404, 'sv_fraction': 1.0, 'n_sv': 10000, 'fit_seconds': 142.45093703269958}
+[Parallel(n_jobs=2)]: Done   3 out of   3 | elapsed:  4.6min finished
+kernel        C  train    val SV frac   time
+linear    0.001 0.5729 0.4562 0.9048    135
+linear     0.01 0.6810 0.4672 0.8525    124
+linear      0.1 0.8317 0.4384 0.8233    142
+linear        1 0.9544 0.4224 0.8074    172
+linear       10 0.9966 0.4088 0.8012    277
+linear      100 1.0000 0.4060 0.7992    299
+rbf       0.001 0.3240 0.2946 1.0000    228
+rbf        0.01 0.3239 0.2948 1.0000    160
+rbf         0.1 0.4769 0.4054 0.9885    197
+rbf           1 0.8406 0.5124 0.9532    185
+rbf          10 0.9982 0.5394 0.9649    215
+rbf         100 1.0000 0.5392 0.9643    215
+poly3     0.001 0.3589 0.3404 1.0000    142
+poly3      0.01 0.4887 0.4294 0.9876    208
+poly3       0.1 0.7530 0.5090 0.9416    181
+poly3         1 0.9742 0.5314 0.9284    166
+poly3        10 0.9997 0.5178 0.9208    164
+poly3       100 1.0000 0.5162 0.9203     96

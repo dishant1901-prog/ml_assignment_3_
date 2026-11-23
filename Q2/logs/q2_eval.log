@@ -1,0 +1,18 @@
+clean    mlp  lr 0.3   val 0.5780  test 0.5726  conf ok/wrong 0.845/0.681  ECE 0.203
+clean    cnn  lr 0.3   val 0.9002  test 0.8971  conf ok/wrong 0.956/0.710  ECE 0.033
+perm     mlp  lr 0.3   val 0.5798  test 0.5763  conf ok/wrong 0.843/0.683  ECE 0.199
+perm     cnn  lr 0.3   val 0.5588  test 0.5608  conf ok/wrong 0.896/0.755  ECE 0.273
+patch16  mlp  lr 0.3   val 0.4002  test 0.4031  conf ok/wrong 0.771/0.649  ECE 0.295
+patch16  cnn  lr 0.3   val 0.8274  test 0.8146  conf ok/wrong 0.938/0.730  ECE 0.085
+patch8   mlp  lr 1.0   val 0.3102  test 0.3236  conf ok/wrong 0.438/0.368  ECE 0.067
+patch8   cnn  lr 0.3   val 0.7114  test 0.7053  conf ok/wrong 0.919/0.753  ECE 0.164
+patch4   mlp  lr 1.0   val 0.2764  test 0.2758  conf ok/wrong 0.420/0.352  ECE 0.095
+patch4   cnn  lr 0.3   val 0.6060  test 0.6016  conf ok/wrong 0.894/0.753  ECE 0.236
+clean-trained mlp tested on perm: test 0.1710  conf 0.678
+clean-trained mlp tested on patch16: test 0.2552  conf 0.698
+clean-trained mlp tested on patch8: test 0.2003  conf 0.684
+clean-trained mlp tested on patch4: test 0.1759  conf 0.694
+clean-trained cnn tested on perm: test 0.1005  conf 0.654
+clean-trained cnn tested on patch16: test 0.5815  conf 0.758
+clean-trained cnn tested on patch8: test 0.2774  conf 0.727
+clean-trained cnn tested on patch4: test 0.1845  conf 0.826

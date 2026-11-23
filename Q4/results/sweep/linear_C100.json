@@ -1,0 +1,9 @@
+{
+  "kernel": "linear",
+  "C": 100,
+  "train_acc": 1.0,
+  "val_acc": 0.406,
+  "sv_fraction": 0.7992,
+  "n_sv": 7992,
+  "fit_seconds": 298.5983591079712
+}
