@@ -27,6 +27,7 @@ advantage, but note it.
 \begin{table}[t]
 \centering
 \small
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{@{}lrcccc@{}}
 \toprule
 Model & Params & lr & Train & Val & Test \\
@@ -36,7 +37,7 @@ Wide MLP 3072-1152-1152-10 & 4{,}884{,}490 & 0.1 & 1.000 & 0.600 & 0.587 \\
 MLP + flip/crop & 1{,}150{,}474 & 0.1 & 0.664 & 0.615 & 0.621 \\
 CNN (6 conv + GAP + FC) & 1{,}148{,}874 & 0.3 & 1.000 & 0.900 & \textbf{0.897} \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \caption{Q1(a). Selected learning rate, final-epoch train/val accuracy and the single test evaluation.}
 \label{tab:q1a}
 \end{table}

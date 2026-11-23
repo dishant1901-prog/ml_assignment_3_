@@ -38,6 +38,7 @@ that introduced it.
 \begin{table}[t]
 \centering
 \small
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{@{}lll@{}}
 \toprule
 Component & Introduced & Reused in \\
@@ -49,7 +50,7 @@ Selected Q1(a) CNN as fixed classifier & Q1(a) & Q3(b) \\
 Clean AE-1024 & Q3(a) & Q3(b),(c) \\
 DAE-1024 encoder (frozen) as representation & Q3(b) & Q3(c), Q4 \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \caption{Models and results reused across questions.}
 \label{tab:reuse}
 \end{table}

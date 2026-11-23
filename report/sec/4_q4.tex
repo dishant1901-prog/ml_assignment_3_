@@ -86,6 +86,7 @@ images nearest the boundary, with the pair decision score. Red ``x'': misclassif
 \begin{table}[t]
 \centering
 \small
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{@{}lcccc@{}}
 \toprule
 Pair & Confusions & Pair acc. & Sep.\ ratio & Pair SV frac. \\
@@ -97,7 +98,7 @@ bird--deer & 288 & 0.703 & 0.017 & 0.84 \\
 median of 45 pairs & -- & -- & 0.064 & -- \\
 frog--ship (easiest) & 28 & 0.947 & 0.165 & -- \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \caption{Q4(b). Test confusions (both directions), accuracy of the pair classifier on the test images of the two
 classes, separation ratio (squared distance of class means over mean within-class spread, training codes) and
 fraction of the pair's training points that are its support vectors.}

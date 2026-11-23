@@ -88,6 +88,7 @@ predictions.}
 \begin{table}[t]
 \centering
 \small
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{@{}lccccc@{}}
 \toprule
 CNN, test & Acc. & Conf.\ right & Conf.\ wrong & Wrong $>0.9$ & ECE \\
@@ -98,7 +99,7 @@ $8\times8$ & 0.705 & 0.919 & 0.753 & 34\% & 0.164 \\
 $4\times4$ & 0.602 & 0.894 & 0.753 & 33\% & 0.236 \\
 Clean model on $8\times8$ & 0.277 & 0.781 & 0.707 & 27\% & 0.450 \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \caption{Q2(c). Mean max-softmax confidence of right and wrong predictions, share of errors made with
 confidence above 0.9, and expected calibration error (15 bins)~\cite{guo2017calibration}.}
 \label{tab:q2conf}

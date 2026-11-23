@@ -54,6 +54,7 @@ $\sigma=0.05$ and $0.2$, and the classifier on reconstructions of \emph{clean} i
 \begin{table}[t]
 \centering
 \small
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{@{}lccc@{}}
 \toprule
 Classifier input & $\sigma=0.05$ & $\sigma=0.1$ (train) & $\sigma=0.2$ \\
@@ -65,7 +66,7 @@ DAE (noisy) & 0.548 & 0.524 & \textbf{0.422} \\
 \multicolumn{4}{@{}l}{Control, no noise: clean image 0.897; clean AE 0.646; DAE 0.553} \\
 \multicolumn{4}{@{}l}{MSE to clean at $\sigma=0.1$: noisy 0.0093, AE 0.0032, DAE 0.0030} \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \caption{Q3(b). Test accuracy of the fixed Q1(a) CNN.}
 \label{tab:q3b}
 \end{table}
