@@ -1,0 +1,49 @@
+{
+  "training": {
+    "epochs": 40,
+    "batch_size": 128,
+    "optimizer": "SGD momentum 0.9 nesterov",
+    "schedule": "OneCycle, 15% warmup",
+    "weight_decay": 0.0005,
+    "lr_grid": [
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1.0
+    ]
+  },
+  "conditions": {
+    "clean": "reuses Q1(a) runs",
+    "perm": "one fixed pixel permutation (seed 242003) applied to train, val and test",
+    "patch16": "per-image random shuffle of 16x16 patches",
+    "patch8": "per-image random shuffle of 8x8 patches",
+    "patch4": "per-image random shuffle of 4x4 patches"
+  },
+  "patch_seeds": {
+    "train": 242003,
+    "val": 242004,
+    "test": 242005
+  },
+  "models": [
+    "mlp (Q1 MLP)",
+    "cnn (Q1 CNN)"
+  ],
+  "cnn_patch4_patch16_lr": "taken from the CNN patch8 selection (--lr-from patch8)",
+  "selected_lr": {
+    "clean/mlp": 0.3,
+    "clean/cnn": 0.3,
+    "perm/mlp": 0.3,
+    "perm/cnn": 0.3,
+    "patch16/mlp": 0.3,
+    "patch16/cnn": 0.3,
+    "patch8/mlp": 1.0,
+    "patch8/cnn": 0.3,
+    "patch4/mlp": 1.0,
+    "patch4/cnn": 0.3
+  },
+  "calibration": {
+    "metric": "ECE",
+    "bins": 15
+  }
+}

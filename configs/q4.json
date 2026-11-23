@@ -1,0 +1,91 @@
+{
+  "representation": "DAE-1024 codes from Q3(b), standardised",
+  "svm": {
+    "implementation": "sklearn SVC (one-vs-one)",
+    "train_subset": 10000,
+    "subset": "stratified, seed 242003, Q4/results/svm_subset_idx.npy",
+    "C_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "kernels": {
+      "linear": {
+        "kernel": "linear"
+      },
+      "rbf": {
+        "kernel": "rbf",
+        "gamma": "scale"
+      },
+      "poly3": {
+        "kernel": "poly",
+        "degree": 3,
+        "gamma": "scale",
+        "coef0": 1.0
+      }
+    },
+    "selection": "validation accuracy",
+    "selected": {
+      "kernel": "rbf",
+      "C": 10
+    }
+  },
+  "clustering": {
+    "candidates": [
+      [
+        "kmeans",
+        5
+      ],
+      [
+        "kmeans",
+        10
+      ],
+      [
+        "kmeans",
+        15
+      ],
+      [
+        "kmeans",
+        20
+      ],
+      [
+        "kmeans",
+        30
+      ],
+      [
+        "gmm",
+        5
+      ],
+      [
+        "gmm",
+        10
+      ],
+      [
+        "gmm",
+        15
+      ],
+      [
+        "gmm",
+        20
+      ],
+      [
+        "gmm",
+        30
+      ]
+    ],
+    "gmm_covariance": "diagonal",
+    "selection": "validation ARI",
+    "selected": {
+      "method": "kmeans",
+      "k": 10
+    },
+    "test_metrics": [
+      "ARI",
+      "NMI",
+      "contingency table"
+    ]
+  }
+}

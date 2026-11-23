@@ -1,0 +1,14 @@
+{
+  "dataset": "CIFAR-10, HF parquet uoft-cs/cifar10, revision 0b2714987fa478483af9968de7c934580d0bb9a2",
+  "seed": 242003,
+  "split": {
+    "type": "stratified",
+    "train": 45000,
+    "val": 5000,
+    "file": "common/split_seed242003.npz",
+    "md5": "0204a12a1885b4c07b244978623e8adc"
+  },
+  "normalisation": "per-channel mean/std of the 45k training split",
+  "augmentation_when_used": "random horizontal flip (p=0.5) + random 32x32 crop from 4-pixel zero padding",
+  "test_set_use": "final evaluation only, after all choices fixed on validation"
+}

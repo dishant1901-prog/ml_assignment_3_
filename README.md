@@ -8,6 +8,7 @@ Everything in the report can be regenerated from this repository. All randomness
 ## Layout
 ```
 common/      data loading, the saved split, training loop, MLP/CNN definitions, job runner
+configs/     final configuration of every experiment (hyperparameters, search grids, values selected on val)
 Q1/ Q2/ Q3/ Q4/
    *.py        experiment scripts
    notes.md    design decisions and results for that question

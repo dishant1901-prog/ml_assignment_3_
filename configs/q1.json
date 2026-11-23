@@ -1,0 +1,68 @@
+{
+  "q1a": {
+    "training": {
+      "epochs": 40,
+      "batch_size": 128,
+      "optimizer": "SGD momentum 0.9 nesterov",
+      "schedule": "OneCycle, 15% warmup",
+      "weight_decay": 0.0005,
+      "lr_grid": [
+        0.01,
+        0.03,
+        0.1,
+        0.3,
+        1.0
+      ]
+    },
+    "selection": "final-epoch validation accuracy",
+    "models": {
+      "mlp": {
+        "architecture": "MLP hidden (336, 336)",
+        "params": 1150474,
+        "augmentation": false,
+        "selected_lr": 0.3
+      },
+      "cnn": {
+        "architecture": "CNN widths (64, 128, 256)",
+        "params": 1148874,
+        "augmentation": false,
+        "selected_lr": 0.3
+      },
+      "mlp_wide": {
+        "architecture": "MLP hidden (1152, 1152)",
+        "params": 4884490,
+        "augmentation": false,
+        "selected_lr": 0.1
+      },
+      "mlp_aug": {
+        "architecture": "MLP hidden (336, 336)",
+        "params": 1150474,
+        "augmentation": true,
+        "selected_lr": 0.1
+      }
+    }
+  },
+  "q1b": {
+    "training": {
+      "hidden": [
+        2048,
+        2048
+      ],
+      "epochs": 60,
+      "evals_per_epoch": 8,
+      "batch_size": 128,
+      "optimizer": "SGD momentum 0.9 nesterov",
+      "lr": 0.002,
+      "schedule": "constant",
+      "weight_decay": 0.0,
+      "augmentation": false
+    },
+    "label_noise": [
+      0.2,
+      0.0,
+      0.4
+    ],
+    "noise_rule": "label replaced by a different random class: (y + randint(1, 10)) % 10",
+    "selection": "checkpoint with best validation accuracy vs final checkpoint"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "training": {
+    "epochs": 30,
+    "batch_size": 256,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "optimizer": "AdamW",
+    "schedule": "OneCycle, 15% warmup",
+    "loss": "MSE (normalised space)"
+  },
+  "bottlenecks": [
+    16,
+    128,
+    1024
+  ],
+  "selected_bottleneck": 1024,
+  "selection": "validation reconstruction MSE",
+  "denoising": {
+    "noise": "Gaussian, sigma in pixel units, clipped to [0, 1]",
+    "train_sigma": 0.1,
+    "eval_sigmas": [
+      "0.05",
+      "0.1",
+      "0.2"
+    ],
+    "classifier": "Q1(a) CNN, lr 0.3"
+  },
+  "probes": {
+    "linear": {
+      "solver": "LBFGS",
+      "standardised_features": true,
+      "weight_decay_grid": [
+        1e-05,
+        0.0001,
+        0.001,
+        0.01,
+        0.1
+      ],
+      "selected_weight_decay": {
+        "AE-16": 0.0001,
+        "AE-128": 0.001,
+        "AE-1024": 0.0001,
+        "DAE-1024": 0.0001,
+        "raw pixels": 0.01
+      }
+    },
+    "knn": {
+      "distance": "cosine",
+      "k_grid": [
+        1,
+        5,
+        10,
+        20,
+        50,
+        100
+      ],
+      "selected_k": {
+        "AE-16": 50,
+        "AE-128": 10,
+        "AE-1024": 20,
+        "DAE-1024": 10,
+        "raw pixels": 10
+      }
+    },
+    "encoders_frozen": true
+  }
+}
