@@ -45,12 +45,11 @@ def contingency_figure():
     order = np.lexsort((-cont.max(0), cont.argmax(0)))
     cont = cont[:, order]
     fig, ax = plt.subplots(figsize=(3.3 if cont.shape[1] <= 12 else 6.9, 2.6))
-    im = ax.imshow(cont, cmap="Blues", aspect="auto")
+    im = ax.imshow(cont, cmap="Blues", aspect="auto", vmin=0, vmax=cont.max() * 1.7)
     for i in range(cont.shape[0]):
         for j in range(cont.shape[1]):
             v = cont[i, j]
-            ax.text(j, i, str(v), ha="center", va="center", fontsize=5,
-                    color="white" if v > cont.max() * 0.55 else "#0b0b0b")
+            ax.text(j, i, str(v), ha="center", va="center", fontsize=5, color="#0b0b0b")
     ax.set_yticks(range(10), CLASSES, fontsize=6.5)
     ax.set_xticks(range(cont.shape[1]), [str(o) for o in order], fontsize=6)
     ax.set_xlabel("cluster id")
